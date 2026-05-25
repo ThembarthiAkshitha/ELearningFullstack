@@ -1,4 +1,4 @@
-import {Link, withRouter} from 'react-router-dom'
+import {withRouter} from 'react-router-dom'
 import './index.css'
 import { FaRegUser } from "react-icons/fa";
 import Cookies from "js-cookie";
