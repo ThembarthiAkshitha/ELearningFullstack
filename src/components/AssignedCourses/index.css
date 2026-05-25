@@ -1,0 +1,108 @@
+/* AssignedCourses/index.css */
+
+.assigned-courses-main-container {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.assigned-courses-heading {
+  font-size: 32px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-bottom: 25px;
+}
+
+.assigned-courses-list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.course-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.course-top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-name {
+  font-size: 24px;
+  font-family: 'Roboto';
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.course-id {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #64748b;
+}
+
+.course-description {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #475569;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.quiz-section {
+  margin-top: 20px;
+}
+
+.quiz-heading {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #0f172a;
+  margin-bottom: 15px;
+}
+
+.quiz-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.quiz-card {
+  background-color: #f8fafc;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  border: 1px solid #e2e8f0;
+}
+
+.quiz-title {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #1d4ed8;
+  margin-bottom: 12px;
+}
+
+.quiz-info {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #475569;
+  margin-bottom: 8px;
+}
+
+.no-courses-text {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #64748b;
+}
+
+.no-quiz-text {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #94a3b8;
+}
+

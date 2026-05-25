@@ -1,0 +1,72 @@
+.instructor-item {
+  list-style-type: none;
+  border: 1px solid #d7dfe9;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  width: 40vw;
+}
+
+.instructor-item h1 {
+  font-size: 24px;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+.instructor-item p {
+  font-size: 16px;
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+.instructor-item button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 18px;
+  border-radius: 8px;
+  margin-right: 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.instructor-item button:first-of-type {
+  background-color: #810fba;
+  color: #ffffff;
+}
+
+.instructor-item button:last-of-type {
+  background-color: transparent;
+  border: 1px solid #810fba;
+  color: #810fba;
+}
+
+.edit-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-container input {
+  width: 95%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  outline: none;
+}
+
+.edit-container button {
+  width: 120px;
+  background-color: #16a34a;
+  color: #ffffff;
+}
+
+.label {
+  color: #810fba;
+  margin-bottom: 16px;
+}
+

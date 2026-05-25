@@ -1,0 +1,33 @@
+.certificates-main-container {
+  padding: 20px;
+}
+
+.certificates-heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.certificates-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.certificate-card {
+  width: 320px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #d7dfe9;
+}
+
+.download-button {
+  border: none;
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+

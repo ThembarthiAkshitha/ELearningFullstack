@@ -1,0 +1,206 @@
+.student-dashboard-container {
+  width: 100%;
+  padding: 20px;
+}
+
+.welcome-card {
+  background: linear-gradient(
+    to right,
+    #6b21a8,
+    #9333ea
+  );
+
+  padding: 30px;
+
+  border-radius: 18px;
+
+  color: #ffffff;
+
+  margin-bottom: 30px;
+}
+
+.welcome-heading {
+  font-size: 34px;
+  font-family: 'Roboto';
+
+  margin-bottom: 10px;
+}
+
+.welcome-text {
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+/* .stats-grid {
+  display: grid;
+
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(220px, 1fr)
+  );
+
+  gap: 10px;
+
+  margin-bottom: 40px;
+}
+
+.stat-card {
+  background-color: #ffffff;
+  margin-right: 10px;
+  border-radius: 16px;
+
+  padding: 15px;
+
+  box-shadow: 0px 4px 10px
+    rgba(0, 0, 0, 0.08);
+} */
+
+
+.stats-grid {
+  display: grid;
+
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(220px, 1fr)
+  );
+
+  gap: 20px;
+
+  margin-bottom: 40px;
+}
+
+.stat-card {
+  background-color: #ffffff;
+
+  border-radius: 16px;
+
+  padding: 15px;
+
+  box-shadow: 0px 4px 10px
+    rgba(0, 0, 0, 0.08);
+}
+
+.stat-number {
+  font-size: 36px;
+  font-family: 'Roboto';
+
+  color: #6b21a8;
+
+  margin-bottom: 12px;
+}
+
+.stat-label {
+  font-size: 16px;
+  font-family: 'Roboto';
+
+  color: #555555;
+}
+
+.recent-results-section {
+  background-color: #ffffff;
+
+  border-radius: 18px;
+
+  padding: 25px;
+
+  box-shadow: 0px 4px 10px
+    rgba(0, 0, 0, 0.08);
+}
+
+.section-heading {
+  font-size: 28px;
+  font-family: 'Roboto';
+
+  color: #2d033b;
+
+  margin-bottom: 25px;
+}
+
+.empty-text {
+  font-size: 16px;
+  font-family: 'Roboto';
+
+  color: #666666;
+}
+
+.recent-results-list {
+  list-style-type: none;
+  padding-left: 0px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 18px;
+}
+
+.recent-result-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #f9f5ff;
+
+  padding: 20px;
+
+  border-radius: 14px;
+}
+
+.recent-quiz-title {
+  font-size: 22px;
+  font-family: 'Roboto';
+
+  color: #2d033b;
+
+  margin-bottom: 8px;
+}
+
+.recent-topic {
+  font-size: 15px;
+  font-family: 'Roboto';
+
+  color: #666666;
+}
+
+.result-right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.recent-score {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+
+  color: #4c1d95;
+
+  margin-bottom: 10px;
+}
+
+.pass-status {
+  background-color: #dcfce7;
+
+  color: #15803d;
+
+  padding: 6px 14px;
+
+  border-radius: 20px;
+
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.fail-status {
+  background-color: #fee2e2;
+
+  color: #dc2626;
+
+  padding: 6px 14px;
+
+  border-radius: 20px;
+
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
